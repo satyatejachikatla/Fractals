@@ -6,7 +6,7 @@
 #include <thrust/complex.h>
 #include <ImageHelper.h>
 
-__global__ void Newton(unsigned int nx,unsigned int ny,double centerx,double centery,double scale_x,double scale_y,PixelInfo *img){
+__global__ void Mandelbrot(unsigned int nx,unsigned int ny,double centerx,double centery,double scale_x,double scale_y,PixelInfo *img){
 
 	int i = threadIdx.x + blockIdx.x * blockDim.x;
 	int j = threadIdx.y + blockIdx.y * blockDim.y;
@@ -67,7 +67,7 @@ int main() {
 	double reduce;
 	for(img_count=0,reduce = 1; reduce < count+1; reduce*=1.2,img_count++ ){
 		// Call //
-		Newton<<<blocks,threads>>>(nx,ny,centerx,centery,4.0f/reduce,2.0f/reduce,img);
+		Mandelbrot<<<blocks,threads>>>(nx,ny,centerx,centery,4.0f/reduce,2.0f/reduce,img);
 		checkCudaErrors(cudaGetLastError());
 		checkCudaErrors(cudaDeviceSynchronize());
 
