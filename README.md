@@ -7,3 +7,8 @@
 ### Julia
 
 ![Julia](https://raw.githubusercontent.com/turrentrock/Fractals/master/res/Julia.gif)
+
+### Sierpinski's Triangle
+
+![Julia](https://raw.githubusercontent.com/turrentrock/Fractals/master/res/Sierpinskistriangle.gif)
+
