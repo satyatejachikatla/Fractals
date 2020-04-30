@@ -8,7 +8,7 @@
 
 ![Julia](https://raw.githubusercontent.com/turrentrock/Fractals/master/res/Julia.gif)
 
-### Sierpinski's Triangle
+### Sierpinski's
 
 ![SierpinskisT](https://raw.githubusercontent.com/turrentrock/Fractals/master/res/Sierpinskistriangle.gif)
 ![SierpinskisC](https://raw.githubusercontent.com/turrentrock/Fractals/master/res/Sierpinskiscarpet.gif)
