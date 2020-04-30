@@ -16,4 +16,5 @@
 ### Chaos Game
 
 ![Chaos_triangle](https://raw.githubusercontent.com/turrentrock/Fractals/master/res/Chaos_triangle.gif)
+![Chaos_pentagon](https://raw.githubusercontent.com/turrentrock/Fractals/master/res/Chaos_pentagon.gif)
 
