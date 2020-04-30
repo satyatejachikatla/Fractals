@@ -10,5 +10,6 @@
 
 ### Sierpinski's Triangle
 
-![Julia](https://raw.githubusercontent.com/turrentrock/Fractals/master/res/Sierpinskistriangle.gif)
+![SierpinskisT](https://raw.githubusercontent.com/turrentrock/Fractals/master/res/Sierpinskistriangle.gif)
+![SierpinskisC](https://raw.githubusercontent.com/turrentrock/Fractals/master/res/Sierpinskiscarpet.gif)
 

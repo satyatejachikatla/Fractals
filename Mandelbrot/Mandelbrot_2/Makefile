@@ -5,17 +5,17 @@ LIBS :=  #-lcurand
 
 NVCCFLAGS := -I. \
 			 -I/usr/local/cuda/include \
-			 -I../infra \
+			 -I../../infra \
 			 -dlink
 
 BUILT_LIBS := 
 
 LDFLAGS += $(shell pkg-config opencv --cflags --libs)
 
-OBJS := ../infra/*.o *.o 
+OBJS := ../../infra/*.o *.o 
 
 all:
-	$(MAKE) -C ../infra
+	$(MAKE) -C ../../infra
 	$(MAKE) app
 
 app:
@@ -28,4 +28,4 @@ clean:
 	rm -f *.a
 	rm -f save_folder/*.jpg
 
-	$(MAKE) -C ../infra clean
+	$(MAKE) -C ../../infra clean
